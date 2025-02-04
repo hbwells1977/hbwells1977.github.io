@@ -24,17 +24,21 @@ body{
 
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #73BA9B;
 
 }
 h2 {
+    color: #c6eed9;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e5f8ee;
     
 }
 h4 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F4FFF8;
 }
 .container {
     display: flex;
@@ -57,4 +61,8 @@ a:hover {
 
 .links {
     color: #F4FFF8;
+}
+
+.copyright {
+    color: #F4FFF8;;
 }
