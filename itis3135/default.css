@@ -36,3 +36,10 @@ h3{
 h4 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Evenly space items */
+    height: 100%; /* Full height of the page */
+    padding: 20px;
+}
