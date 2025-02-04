@@ -18,6 +18,10 @@ body {
   font-family: sans-serif;
 }
 
+body{
+    text-align: center;
+}
+
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
