@@ -41,7 +41,7 @@ h4 {
     flex-direction: column; /* Stack elements vertically */
     justify-content: space-between; /* Evenly space items */
     height: 100%; /* Full height of the page */
-    padding: 20%;
+    padding: 5%;
 }
 
 a:visited {
