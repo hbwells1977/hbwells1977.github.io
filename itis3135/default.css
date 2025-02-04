@@ -43,3 +43,14 @@ h4 {
     height: 100%; /* Full height of the page */
     padding: 20px;
 }
+
+a:visited {
+   color: #1C3738; 
+}
+
+a:active {
+    color: #F4FFF8;
+}
+a:hover {
+    color: #8BAAAD;
+}
