@@ -41,7 +41,7 @@ h4 {
     flex-direction: column; /* Stack elements vertically */
     justify-content: space-between; /* Evenly space items */
     height: 100%; /* Full height of the page */
-    padding: 20px;
+    padding: 20%;
 }
 
 a:visited {
@@ -53,4 +53,8 @@ a:active {
 }
 a:hover {
     color: #8BAAAD;
+}
+
+.links {
+    color: #F4FFF8;
 }
