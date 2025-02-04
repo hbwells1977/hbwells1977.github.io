@@ -45,7 +45,6 @@ h4 {
     flex-direction: column; /* Stack elements vertically */
     justify-content: space-between; /* Evenly space items */
     height: 100%; /* Full height of the page */
-    padding: 5%;
 }
 
 a:visited {
@@ -65,4 +64,9 @@ a:hover {
 
 .copyright {
     color: #F4FFF8;;
+}
+
+a {
+  color: #F4FFF8;
+  text-decoration: none;  
 }
