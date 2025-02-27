@@ -1,0 +1,58 @@
+*
+{color: darkgoldenrod;}
+.randoimage {
+    height: 400px;
+    width: 400px;
+}
+.papy {
+    font-family: Papyrus; 
+    color: gray;
+
+}
+.headersite {
+    font-family: "Comic Sans MS";
+    color: gray;
+
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: lightslategray;
+}
+body{
+    background-color: black;
+}
+h1{
+    background-color: white;
+}
+.paragraph1{
+    color: red;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 5px solid red; 
+    border-right: 3px dashed blue; 
+    border-bottom: 2px dotted green; 
+    border-left: 4px double white; 
+    display: inline-block; 
+    padding: 150px;
+
+}
+ul {
+    background-color: red;
+    color: yellow;
+    text-align: center;
+}
+.paragraph2{
+    color: rgb(255, 123, 0);
+    background-color: yellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400%;
+    margin: 2px 3px 5px 56px; 
+}
+
+.rick{
+    text-align: right;      
+    text-decoration: underline;
+}
+.blank {
+    background-color: green;
+}
