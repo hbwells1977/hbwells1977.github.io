@@ -1,6 +1,6 @@
 
 body {
-    background-color: #4D4847;
+    background-color: darkolivegreen;
     text-align: center;
 }
 .links{
@@ -8,12 +8,12 @@ body {
 }
 
 .headersite {
-  border: 2px solid #000F08; /* Black border with a 2px width */
-  padding: 10px; /* Space between the text and the border */
-  width: fit-content; /* Adjusts the width to fit the text content */
+  border: 2px solid #000F08; 
+  padding: 10px; 
+  width: fit-content; 
   margin: 10px; 
-  color: #F4FFF8;
-  background-color: #8BAAAD;
+  color: black;
+  background-color: lightgreen;
   text-align: center;
   font-family: sans-serif;
 }
@@ -23,7 +23,7 @@ body{
 }
 
 h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #73BA9B;
 
 }
@@ -42,9 +42,9 @@ h4 {
 }
 .container {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: space-between; /* Evenly space items */
-    height: 100%; /* Full height of the page */
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100%;
 }
 
 a:visited {

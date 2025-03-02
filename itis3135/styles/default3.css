@@ -1,0 +1,32 @@
+body {
+    background-color: #E1FAF9;
+} 
+
+h1{
+    text-align: center;
+}
+.clt {
+    text-align: center;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+nav {
+    text-decoration: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+section {
+    color: #2A1F2D;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+}
