@@ -72,10 +72,36 @@ ul {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 img {
-    width: 16%;
     text-align: center;
    
 
 }
 
+/*Update CSS Margins, width and styles assignment */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  @media (max-width: 600px) {
+    main {
+      width: 95%;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    main {
+        width: 92%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    main {
+        width: 90%;
+    }
+  }
+  

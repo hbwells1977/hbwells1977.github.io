@@ -70,3 +70,30 @@ a {
   color: #F4FFF8;
   text-decoration: underline;  
 }
+
+/*Update CSS Margins, width and styles assignment */
+
+main {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 600px) {
+    main {
+      width: 95%;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    main {
+      width: 92%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    main {
+      width: 90%;
+    }
+  }
+  
