@@ -5,6 +5,12 @@ body {
 }
 .links{
     text-align: center;
+    font-size: 125%;
+}
+.projects{
+    font-size: 90%;
+    color: #73BA9B;
+
 }
 
 .headersite {
@@ -13,7 +19,7 @@ body {
   width: fit-content; 
   margin: 10px; 
   color: black;
-  background-color: lightgreen;
+  background-color: rgb(84, 141, 84);
   text-align: center;
   font-family: sans-serif;
 }
@@ -27,19 +33,31 @@ h1{
     color: #73BA9B;
 
 }
-h2 {
-    color: #c6eed9;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #73BA9B ;
+
 }
 h3{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #73BA9B;
+
+}
+
+h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #e5f8ee;
+    color: #73BA9B;
     
 }
-h4 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #F4FFF8;
+.description, .itisdescription{
+    font-size: 105%;
+    color: #73BA9B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -5px;
+    margin-bottom: 20px;
+
 }
+
 .container {
     display: flex;
     flex-direction: column; 
@@ -71,12 +89,28 @@ a {
   text-decoration: underline;  
 }
 
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;  
+    padding-top: 10px;
+    background-color: rgb(84, 141, 84);
+    color: white;
+    text-align: center;
+    }
+
+
+
 /*Update CSS Margins, width and styles assignment */
 
 main {
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
+    font-size: 150%;
+
   }
   
   @media (max-width: 600px) {
