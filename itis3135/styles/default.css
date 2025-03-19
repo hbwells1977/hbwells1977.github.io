@@ -1,137 +1,137 @@
 
-body {
-    background-color: darkolivegreen;
-    text-align: center;
-}
-.links{
-    text-align: center;
-    font-size: 125%;
-}
-.projects{
-    font-size: 90%;
-    color: #73BA9B;
+  body {
+      background-color: darkolivegreen;
+      text-align: center;
+  }
+  .links{
+      text-align: center;
+      font-size: 125%;
+  }
+  .projects{
+      font-size: 90%;
+      color: #73BA9B;
 
-}
+  }
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 10px;
-  background-color: rgb(84, 141, 84);
-  color: black;
-  border: 2px solid #000F08;
-  font-family: sans-serif;
-  box-sizing: border-box; 
-}
-
-
-body{
-    text-align: center;
-}
-
-h1{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #73BA9B;
-
-}
-h2{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #73BA9B ;
-
-}
-h3{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #73BA9B;
-
-}
-
-h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #73BA9B;
-    
-}
-.description, .itisdescription{
-    font-size: 105%;
-    color: #73BA9B;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: -5px;
-    margin-bottom: 20px;
-
-}
-
-.container {
+  header {
     display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    height: 100%;
-}
-
-a:visited {
-   color: #1C3738; 
-}
-
-a:active {
-    color: #F4FFF8;
-}
-a:hover {
-    color: #8BAAAD;
-}
-
-.links {
-    color: #F4FFF8;
-}
-
-.copyright {
-    color: #F4FFF8;;
-}
-
-a {
-  color: #F4FFF8;
-  text-decoration: underline;  
-}
-
-
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;  
-    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
     background-color: rgb(84, 141, 84);
-    color: white;
-    text-align: center;
-    }
+    color: black;
+    border: 2px solid #000F08;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+  }
 
 
+  body{
+      text-align: center;
+  }
 
-/*Update CSS Margins, width and styles assignment */
-
-main {
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
-    font-size: 150%;
+  h1{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #73BA9B;
 
   }
-  
-  @media (max-width: 600px) {
-    main {
-      width: 95%;
-    }
+  h2{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #73BA9B ;
+
   }
-  
-  @media (min-width: 601px) and (max-width: 1024px) {
-    main {
-      width: 92%;
-    }
+  h3{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #73BA9B;
+
   }
-  
-  @media (min-width: 1025px) {
-    main {
+
+  h4{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #73BA9B;
+      
+  }
+  .description, .itisdescription{
+      font-size: 105%;
+      color: #73BA9B;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top: -5px;
+      margin-bottom: 20px;
+
+  }
+
+  .container {
+      display: flex;
+      flex-direction: column; 
+      justify-content: space-between;
+      height: 100%;
+  }
+
+  a:visited {
+    color: #1C3738; 
+  }
+
+  a:active {
+      color: #F4FFF8;
+  }
+  a:hover {
+      color: #8BAAAD;
+  }
+
+  .links {
+      color: #F4FFF8;
+  }
+
+  .copyright {
+      color: #F4FFF8;;
+  }
+
+  a {
+    color: #F4FFF8;
+    text-decoration: underline;  
+  }
+
+
+  footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;  
+      padding-top: 10px;
+      background-color: rgb(84, 141, 84);
+      color: white;
+      text-align: center;
+      }
+
+
+
+  /*Update CSS Margins, width and styles assignment */
+
+  main {
+      max-width: 1200px;
       width: 90%;
+      margin: 0 auto;
+      font-size: 150%;
+
     }
-  }
-  
+    
+    @media (max-width: 600px) {
+      main {
+        width: 95%;
+      }
+    }
+    
+    @media (min-width: 601px) and (max-width: 1024px) {
+      main {
+        width: 92%;
+      }
+    }
+    
+    @media (min-width: 1025px) {
+      main {
+        width: 90%;
+      }
+    }
+    

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobby</title>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #76c7c0;
+            color: #004e89;
+            text-align: center;
+        }
+        header {
+            background-color: #004e89;
+            color: #f0f8ff;
+            padding: 10px;
+        }
+        nav {
+            margin: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #e1c699;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        ul {
+            padding-left: 20px;
+            list-style-position: inside;
+        }
+
+        section {
+            display: none;
+            padding: 20px;
+        }
+
+        .active {
+            display: block;
+        }
+        .inlet {
+            border: 1px solid #4c9a2a;
+            
+        }
+
+        table {
+            margin-right: auto;
+            margin-left: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 6px;
+        }
+        footer {
+            background-color: #4c9a2a;
+            color: #f0f8ff;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .guyFishing {
+            height: 425px;
+            width: 675px;
+        }
+        figcaption {
+        font-style: italic;
+        }
+
+        .submit {
+            margin-top: 10px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Hobby</h1>
+        <nav>
+            <a onclick="showSection('home')">Home</a> | 
+            <a onclick="showSection('About')">About me</a> | 
+            <a onclick="showSection('when')">Best Time to Fish</a> | 
+            <a onclick="showSection('where')">Best Places to Fish</a> | 
+            <a onclick="showSection('how')">How to Fish</a> | 
+            <a onclick="showSection('why')">Why do People Enjoy Fishing</a> | 
+            <a onclick="showSection('ai')">AI Prompts</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="active">
+            <h2>My Favorite Hobby is Fishing!</h2>
+            <p>Fishing is both a relaxing pastime and an exciting sport enjoyed worldwide. Whether casting lines into the vast ocean for saltwater species like tuna and redfish or targeting largemouth bass in freshwater lakes, fishing offers a unique connection to nature. Saltwater fishing provides thrilling battles with powerful fish, while bass fishing challenges anglers with strategy and technique. No matter the setting, fishing is a rewarding experience that combines skill, patience, and the thrill of the catch.</p>
+            <figure>
+                <img class="guyFishing" src="images/hobby.jpg" alt="Hobby Image">
+                <figcaption>Illustration of my hobby.</figcaption>
+            </figure>
+        </section>
+
+        <section id="About">
+            <h2>About Hunter Wells</h2>
+            <p>My name is Hunter and I am a college student who has been fishing for some time now. I first started fishing as a little kid on charter boats with my father. I had not fished much for some years and then starting taking fishing more seriously when I was about 17. Since then, I have found it to be a fun hobby that is very engaging and something I can never get bored of.</p>
+            <figure>
+                <img class ="skate" src="images/skate.jpeg" alt="Skate">
+                <figcaption>A large skate I unfortunately caught (I hate skates).</figcaption>
+
+            </figure>
+        </section>
+
+        <section id="when">
+            <h2>Best Time to Fish</h2>
+            <p>In my opinion, the best time to go fishing is right before sunset because fish are most active during this time. As the sun sets, the water cools, and many species move closer to shore or the surface to feed. In saltwater inlets, an outgoing tide just before sunset creates strong currents that carry baitfish out to sea, attracting predatory fish like redfish and snook. In freshwater, bass tend to be more aggressive in the evening, making it the perfect time to cast a line and enjoy the peaceful end of the day.</p>
+            <table>
+                <caption>Best Times for Fishing</caption>
+                <thead>
+                    <tr>
+                        <th>Time of Day</th>
+                        <th>Species</th>
+                        <th>Best Bait</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Morning</td>
+                        <td>Bass</td>
+                        <td>Worms, Spinners</td>
+                    </tr>
+                    <tr>
+                        <td>Evening</td>
+                        <td>Redfish, Snook</td>
+                        <td>Cut Bait, Shrimp</td>
+                    </tr>
+                    <tr>
+                        <td>Sunset</td>
+                        <td>Trout, Tuna</td>
+                        <td>Squid, Crabs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="where">
+            <h2>Best places to go Fishing</h2>
+            <p>Fishing jetties and inlets are some of the best spots for saltwater fishing because they attract a variety of fish that thrive in strong currents and structure. The rocks and pilings create hiding spots for baitfish, drawing in predators like snook, redfish, and flounder. The changing tides also play a big role, making certain times of the day especially productive. For freshwater fishing, private ponds are unbeatable for bass fishing. With less pressure from other anglers, bass in these waters tend to be more aggressive and willing to bite. These secluded spots offer a peaceful fishing experience and often produce bigger, healthier fish compared to public lakes.</p>
+            <div class="inlet"></div>
+            <ul>
+                <li>Top Saltwater Locations: Inlets, Jetties, Piers, Marinas</li>
+                <li>Top Freshwater Locations: Any private pond that you are not allowed to fish in.</li>
+                <li>Best Conditions: Low tide for inlets, calm weather for ponds, sound-side marinas when windy</li>
+            </ul>
+        </section>
+
+        <section id="how">
+            <h2>How to Get Started</h2>
+            <p>Getting started with fishing at the beach or a pond is simple and doesn’t require expensive gear. For beach fishing, a medium-heavy spinning rod, a sand spike, and a basic rig with shrimp or cut bait are great for targeting species like whiting, redfish, and pompano. Pay attention to tides and look for sandbars or deeper troughs where fish gather. For pond fishing, a light or medium spinning setup with soft plastics, worms, or topwater lures is perfect for catching bass and panfish. Focus on casting near structures like lily pads or fallen logs where fish like to hide. With a little patience and practice, anyone can enjoy a great day of fishing.</p>
+                <h2>Subscribe to Our Tips and Tricks Newsletter:</h2>
+                <p>Fill in your email below to stay updated with the latest fishing tips and tricks!</p>
+                <form action="mailto:dummy@example.com" method="post" enctype="text/plain">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <input type="submit" value="Subscribe">
+                </form>
+        </section>
+
+        <section id="why">
+            <h2>Why Fish</h2>
+            <p>I find fishing fun and relaxing. When at the beach or by a body of water, fishing is engaging and fun to do. Plus... what is better than eating a fish that you caught?</p>
+            <h2>Why Do You Enjoy Fishing?</h2>
+            <p>Please select the reasons why you enjoy fishing. Feel free to choose multiple options!</p>
+        
+            <h2>Why Do You Enjoy Fishing?</h2>
+            <p>Please select the reasons why you enjoy fishing. Feel free to choose multiple options!</p>
+        
+            <form action="#" method="post">
+                <div class="option">
+                    <input type="checkbox" id="relaxation" name="reason" value="Relaxation">
+                    <label for="relaxation">Relaxation and peace of mind</label>
+                </div>
+        
+                <div class="option">
+                    <input type="checkbox" id="sport" name="reason" value="Sport">
+                    <label for="sport">It's a fun sport and challenge</label>
+                </div>
+        
+                <div class="option">
+                    <input type="checkbox" id="family" name="reason" value="Family Time">
+                    <label for="family">Spending quality time with family</label>
+                </div>
+        
+                <div class="option">
+                    <input type="checkbox" id="nature" name="reason" value="Nature">
+                    <label for="nature">Being out in nature</label>
+                </div>
+        
+                <div class="option">
+                    <input type="checkbox" id="social" name="reason" value="Social">
+                    <label for="social">Socializing with friends or fellow anglers</label>
+                </div>
+        
+                <div class="option">
+                    <input type="checkbox" id="adventure" name="reason" value="Adventure">
+                    <label for="adventure">The adventure of the catch</label>
+                </div>
+        
+                <div class="option">
+                    <input type="checkbox" id="food" name="reason" value="Food">
+                    <label for="food">Catching fish to eat</label>
+                </div>
+        
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </section>
+
+        <section id="ai">
+            <h2>AI Prompts</h2>
+            <ul>
+                <li>Give me a title paragraph about what fishing is. Make it fairly short. Talk about saltwater fishing and some freshwater bass fishing.</li>
+                <li>In my opinion, the best time to go fishing is right before sunset, give a short paragraph explaining why. Include the tide when fishing inlets.</li>
+                <li>I think fishing jetties and inlets are the best. I also think fishing private ponds for bass is the best for freshwater. Write a paragraph elaborating on this.</li>
+                <li>How can someone get started fishing at the beach or at a pond? Write a short paragraph.</li>
+                <li>Give me a css color combo that reflects the colors of fishing.</li>
+                <li>What elements would you suggest and how can I implement them into  my elements</li>
+                <li>Organize and cleanup this code.</li>
+
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">Designed by <a href="https://webpages.charlotte.edu/hwells10/DesignFirm/wellsdesigns.html">Wells Designs</a> &copy; 2025, <i>Certified in <a href="https://freecodecamp.org/certification/hwells10/responsive-web-design">Responsive Web Design</a></i></p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll("main section").forEach((section) => {
+                section.classList.remove("active");
+            });
+            document.getElementById(sectionId).classList.add("active");
+        }
+    </script>
+</body>
+</html>

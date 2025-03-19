@@ -30,7 +30,13 @@ body {
     position: fixed;
     width: 100%;
     bottom: 0;
+    padding-top: 0px;
   }
+  
+  footer p {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    } 
   
   main {
     padding: 20px;

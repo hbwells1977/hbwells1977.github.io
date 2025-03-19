@@ -1,17 +1,20 @@
-
 body {
     background-color: darkolivegreen;
     text-align: center;
-    
+    padding-bottom: 60px;
 }
-.links{
+
+.links {
     text-align: center;
-    font-size: 110%;
+    font-size: 125%;
 }
 
+.projects {
+    font-size: 90%;
+    color: #73BA9B;
+}
 
-
-  header {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,37 +25,36 @@ body {
     color: black;
     border: 2px solid #000F08;
     font-family: sans-serif;
-    box-sizing: border-box; 
-  }
-
-body{
-    text-align: center;
+    box-sizing: border-box;
 }
 
 h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #73BA9B;
 
 }
+
 h2 {
     color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
-h4 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 a:visited {
-   color: #1C3738; 
+    color: #1C3738;
 }
 
 a:active {
     color: #F4FFF8;
 }
+
 a:hover {
     color: #8BAAAD;
 }
@@ -62,15 +64,13 @@ a:hover {
 }
 
 .copyright {
-    color: #F4FFF8;;
+    color: #F4FFF8;
 }
 
 a {
-  color: #F4FFF8;
-  text-decoration: underline;  
+    color: #F4FFF8;
+    text-decoration: underline;
 }
-
-
 
 ul {
     text-align: left;
@@ -80,44 +80,49 @@ ul {
 
 img {
     text-align: center;
-   
-
 }
+
 footer {
+    position: relative;
     bottom: 0;
     left: 0;
-    width: 100%;  
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgb(84, 141, 84);
     color: white;
     text-align: center;
-    }
+}
 
-
-/*Update CSS Margins, width and styles assignment */
+.description, .itisdescription {
+    font-size: 105%;
+    color: #73BA9B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
 
 main {
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
-  }
-  
-  @media (max-width: 600px) {
+    min-height: calc(100vh - 120px);
+}
+
+@media (max-width: 600px) {
     main {
-      width: 95%;
+        width: 95%;
     }
-  }
-  
-  @media (min-width: 601px) and (max-width: 1024px) {
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
     main {
         width: 92%;
     }
-  }
-  
-  @media (min-width: 1025px) {
+}
+
+@media (min-width: 1025px) {
     main {
         width: 90%;
     }
-  }
-  
+}

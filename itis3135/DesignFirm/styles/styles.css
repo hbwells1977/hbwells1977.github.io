@@ -24,7 +24,7 @@ header img {
           
 }
 
-header h1 {
+    h1 {
     margin: 0;
     font-size: 32px;
     color: #ffc600;
@@ -53,7 +53,8 @@ ul {
 
 ul li {
     background-color: #fcf300;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 10px ; 
     border-radius: 5px;
     width:525px;
