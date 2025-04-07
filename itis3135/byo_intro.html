@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="en">   
+<head>     
+    <title>Hunter Wells' Hungry Wolverine ~ 52 ~ Introduction Page</title>     
+    <meta charset="utf-8">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <link href="styles/default2.css" rel="stylesheet">     
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>   
+</head>   
+<body>   
+    <header>     
+        <h1 class="headersite">Introduction</h1>         
+        <div data-include="components/header.html"></div>   
+    </header>    
+
+    <main>     
+        <h2>Hunter Wells' Hungry Wolverine</h2>     
+        <form id="introForm">         
+            <label for="first">First Name:</label>         
+            <input type="text" id="first" required>          
+
+            <label for="last">Last Name:</label>         
+            <input type="text" id="last" required><br>          
+
+            <label for="mascot">Mascot:</label>         
+            <input type="text" id="mascot" required><br>          
+
+            <label for="image">Image Upload (PNG/JPG):</label>         
+            <input type="file" id="image" accept="image/png, image/jpeg" required><br>          
+
+            <label for="imageCaption">Image Caption:</label>         
+            <input type="text" id="imageCaption" required><br>          
+
+            <label for="personalBackground">Personal Background:</label>         
+            <input type="text" id="personalBackground" required><br>          
+
+            <label for="professionalBackground">Professional Background:</label>         
+            <input type="text" id="professionalBackground" required><br>          
+
+            <label for="academicBackground">Academic Background:</label>         
+            <input type="text" id="academicBackground" required><br>          
+
+            <label for="webDevBackground">Background in Web Development:</label>         
+            <input type="text" id="webDevBackground" required><br>          
+
+            <label for="computerPlatform">Primary Computer Platform:</label>         
+            <input type="text" id="computerPlatform" required><br>          
+
+            <label>Courses Currently Taking:</label>         
+            <div id="coursesContainer">             
+                <button type="button" id="addCourse">Add Course</button>         
+            </div>          
+
+            <label for="funnyThing">Funny Thing/Interesting Thing to Remember me by:</label>         
+            <input type="text" id="funnyThing"><br>          
+
+            <input type="checkbox" id="agree" required>         
+            <label for="agree" id="tos">I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.</label><br>          
+
+            <input type="submit" value="Submit">         
+            <input type="reset" value="Reset">     
+        </form>   
+    </main>     
+
+    <footer>     
+        <div data-include="components/footer.html"></div>       
+    </footer>     
+
+    <script src="scripts/HTMLInclude.min.js"></script>     
+    <script src="scripts/survey.js"></script>  
+</body> 
+</html>

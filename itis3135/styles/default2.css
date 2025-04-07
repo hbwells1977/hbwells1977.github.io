@@ -13,6 +13,10 @@ body {
     font-size: 90%;
     color: #73BA9B;
 }
+.tos{
+    text-align: left;
+}
+    
 
 header {
     display: flex;
@@ -108,6 +112,12 @@ main {
     width: 90%;
     min-height: calc(100vh - 120px);
 }
+
+form{
+    line-height: 35px;
+}
+
+
 
 @media (max-width: 600px) {
     main {
