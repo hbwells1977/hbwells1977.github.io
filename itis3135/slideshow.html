@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hunter Wells' Hungry Wolverine Slide Show</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/default.css" rel="stylesheet">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <header>
+    <h1 class="headersite">Hunter Wells' Slideshow</h1>
+    <div data-include="components/header.html"></div>
+  </header>
+
+  <main>
+
+    <div class="container">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="images/hat.jpg" alt="hat">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="images/usb.jpg" alt="usb">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="images/notebook.jpg" alt="notebook">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="images/tshirt.jpg" alt="tshirt">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="images/eye.jpg" alt="eye">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="images/remote.jpg" alt="remote">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <div class="caption-container">
+          <p id="caption">Slideshow for H-U-N-T-E-R</p>
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="images/hat.jpg" style="width:100%" onclick="currentSlide(1)" alt="H- Picture of a Bass Pro Shops Hat">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/usb.jpg" style="width:100%" onclick="currentSlide(2)" alt="U- Picture of a 256gb USB Drive">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/notebook.jpg" style="width:100%" onclick="currentSlide(3)" alt="N- Picture of my Accounting Notebook">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/tshirt.jpg" style="width:100%" onclick="currentSlide(4)" alt="T- Picture of a Deftones T-Shirt">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/eye.jpg" style="width:100%" onclick="currentSlide(5)" alt="E- Picture of my Eye Glasses">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/remote.jpg" style="width:100%" onclick="currentSlide(6)" alt="R- Picture of my Television Remote">
+          </div>
+        </div>
+      </div>
+
+  </main>
+
+<footer>
+  <div data-include="components/footer.html"></div>
+
+  </footer>
+  
+  <style>
+
+
+.container {
+position: relative;
+}
+
+.mySlides {
+display: none;
+position: relative;
+
+}
+.mySlides img {
+width: 50%;
+}
+
+
+
+.cursor {
+cursor: pointer;
+}
+
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: #73BA9B;
+font-weight: bold;
+font-size: 40px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+top: 35%; 
+
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+color: #73BA9B;
+font-size: 30px;
+font-weight: bold;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+right: 0px;
+}
+
+.caption-container {
+text-align: center;
+align-items: center;
+background-color: #222;
+height: 50px;
+color: white;
+line-height: 0px;
+font-size: 25px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.column {
+flex: 0 0 30%;
+max-width: 30%;
+
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 10px;
+color: white;
+font-size: 25px;
+margin-bottom: 100px;
+
+
+}
+
+.demo {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+  </style>
+  <script src="scripts/HTMLInclude.min.js"></script>
+  <script src="scripts/slideshowscript.js"></script>
+</body>
+</html>
